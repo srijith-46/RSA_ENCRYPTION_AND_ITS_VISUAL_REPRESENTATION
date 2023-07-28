@@ -51,4 +51,4 @@ def decrypt(private_key, encrypted, md5_checksum):
     if md5_checksum == md5_checksum_calculated:
         return message
     else:
-        return "Message was corrupted" 
+        return " Message was corrupted " 
