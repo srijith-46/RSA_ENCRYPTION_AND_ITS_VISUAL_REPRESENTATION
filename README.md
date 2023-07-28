@@ -10,4 +10,4 @@ Step3: Open a new terminal and run the client file, the connection will be estab
 
 Step4: Now the client can send the message to the server, the server will recieve in encrypted form and then it is decrypted and read by the user.
 
-Note: You can run this is in two systems making it as server and client but you should be in same network   
+Note: You can run this in two systems making it as server and client but you should be in same network   
