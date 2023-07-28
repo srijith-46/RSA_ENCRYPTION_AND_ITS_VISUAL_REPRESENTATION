@@ -52,25 +52,3 @@ def decrypt(private_key, encrypted, md5_checksum):
         return message
     else:
         return "Message was corrupted" 
-
-
-# Generate a key pair
-# p = 61
-# q = 53
-# public_key, private_key = generate_keypair(p, q)
-
-
-# Encrypt a message
-# message = "Sri karthick "
-# encrypted, md5_checksum = encrypt(public_key, message)
-# print("Encrypted message: ",encrypted)
-# print("MD5 CHECKSUM: ", md5_checksum)
-# md5_checksum = md5_checksum + '1'
-
-
-# Decrypt the message
-
-# decrypted = decrypt(private_key, encrypted, md5_checksum)
-# print("Decrypted message: ",decrypted)
-# if decrypted == 'Message was corrupted':
-#     print("corrupted checksum: ", md5_checksum)
